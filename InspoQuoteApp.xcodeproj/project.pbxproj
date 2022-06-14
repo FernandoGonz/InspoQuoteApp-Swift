@@ -13,6 +13,7 @@
 		4D8E549C28578FBF00C88498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8E549A28578FBF00C88498 /* Main.storyboard */; };
 		4D8E549E28578FC300C88498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8E549D28578FC300C88498 /* Assets.xcassets */; };
 		4D8E54A128578FC300C88498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8E549F28578FC300C88498 /* LaunchScreen.storyboard */; };
+		4D8E54AC2857902E00C88498 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E54AB2857902E00C88498 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4D8E549D28578FC300C88498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D8E54A028578FC300C88498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D8E54A228578FC300C88498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8E54AB2857902E00C88498 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				4D8E549428578FBF00C88498 /* AppDelegate.swift */,
 				4D8E549628578FBF00C88498 /* SceneDelegate.swift */,
-				4D8E549828578FBF00C88498 /* ViewController.swift */,
-				4D8E549A28578FBF00C88498 /* Main.storyboard */,
+				4D8E54AA28578FEA00C88498 /* Models */,
+				4D8E54A928578FDF00C88498 /* Controllers */,
+				4D8E54A828578FCE00C88498 /* Views */,
 				4D8E549D28578FC300C88498 /* Assets.xcassets */,
+				4D8E54AB2857902E00C88498 /* Constants.swift */,
 				4D8E549F28578FC300C88498 /* LaunchScreen.storyboard */,
 				4D8E54A228578FC300C88498 /* Info.plist */,
 			);
 			path = InspoQuoteApp;
+			sourceTree = "<group>";
+		};
+		4D8E54A828578FCE00C88498 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E549A28578FBF00C88498 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D8E54A928578FDF00C88498 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D8E549828578FBF00C88498 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D8E54AA28578FEA00C88498 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				4D8E549928578FBF00C88498 /* ViewController.swift in Sources */,
 				4D8E549528578FBF00C88498 /* AppDelegate.swift in Sources */,
 				4D8E549728578FBF00C88498 /* SceneDelegate.swift in Sources */,
+				4D8E54AC2857902E00C88498 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
